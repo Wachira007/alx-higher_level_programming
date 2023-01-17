@@ -1,6 +1,6 @@
 
 0. Readme
-mandatory
+
 
 Write a script that reads and prints the content of a file.
 
@@ -10,7 +10,7 @@ Write a script that reads and prints the content of a file.
 
 
 1. Write me
-mandatory
+
 
 Write a script that writes a string to a file.
 
@@ -21,7 +21,7 @@ Write a script that writes a string to a file.
 
 
 2. Status code
-mandatory
+
 
 Write a script that display the status code of a GET request.
 
@@ -31,7 +31,7 @@ Write a script that display the status code of a GET request.
 
 
 3. Star wars movie title
-mandatory
+
 
 Write a script that prints the title of a Star Wars movie where the episode number matches a given integer.
 
@@ -41,7 +41,7 @@ Write a script that prints the title of a Star Wars movie where the episode numb
 
 
 4. Star wars Wedge Antilles
-mandatory
+
 
 Write a script that prints the number of movies where the character “Wedge Antilles” is present.
 
@@ -51,7 +51,7 @@ Write a script that prints the number of movies where the character “Wedge Ant
 
 
 5. Loripsum
-mandatory
+
 
 Write a script that gets the contents of a webpage and stores it in a file.
 
@@ -62,10 +62,32 @@ Write a script that gets the contents of a webpage and stores it in a file.
 
 
 6. How many completed?
-mandatory
+
 
 Write a script that computes the number of tasks completed by user id.
 
     The first argument is the API URL: https://jsonplaceholder.typicode.com/todos
     Only print users with completed task
+    You must use the module request
+
+
+7. Who was playing in this movie?
+
+
+Write a script that prints all characters of a Star Wars movie:
+
+    The first argument is the Movie ID - example: 3 = “Return of the Jedi”
+    Display one character name by line
+    You must use the Star wars API
+    You must use the module request
+
+
+8. Right order
+
+
+Write a script that prints all characters of a Star Wars movie:
+
+    The first argument is the Movie ID - example: 3 = “Return of the Jedi”
+    Display one character name by line in the same order of the list “characters” in the /films/ response
+    You must use the Star wars API
     You must use the module request
