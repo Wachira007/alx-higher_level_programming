@@ -33,3 +33,31 @@ A script that fetches and lists the title of all the movies using the url: https
 Task 9
 A script that fetches from https://fourtonfish.com/hellosalut/?lang=fr and displayes the value of hello.
 Translation is displayed in the HTML tag DIV#hello
+
+Task 10
+A script that updates the text color of the <header> element to red using document.querySelector
+
+Task 11
+A script that adds, removes and clears LI elemts from a list when the user clicks:
+
+
+    The new element must be: <li>Item</li>
+    The new element must be added to UL.my_list
+    When the user clicks on DIV#add_item: a new element is added to the list
+    When the user clicks on DIV#remove_item: the last element is removed from the list
+    When the user clicks on DIV#clear_list: all elements of the list are removed
+
+Task 12
+A script that fetches and prints how to say "Hello" depending on language.
+The API used is https://www.fourtonfish.com/hellosalut/hello/ 
+The language code is the value entered in the tag INPUT#language_code (ex: es, fr, en etc.)
+The translation is fetched when the user clicks on INPUT#btn_translate
+The translation of “Hello” is displayed in the HTML tag DIV#hello
+
+Task 13
+A script that fetches and prints how to say "Hello" depending on the language
+
+API service used: https://www.fourtonfish.com/hellosalut/hello/
+The language codeis the value entered in the tag INPUT#language_code (ex: es, fr, en etc.)
+The translation is fetched when the user clicks on INPUT#btn_translate OR presses ENTER when the focus is on INPUT#language_code
+The translation of “Hello” is displayed in the HTML tag DIV#hello
